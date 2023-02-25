@@ -43,10 +43,10 @@ SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 #ROMFS	:=	romfs
-APP_VERSION	:=	2.4.3-SB
+APP_VERSION	:=	2.4.3
 
 ifeq ($(RELEASE),)
-	APP_VERSION	:=	$(APP_VERSION)
+	APP_VERSION	:=	$(APP_VERSION)-SB
 endif
 
 #---------------------------------------------------------------------------------
