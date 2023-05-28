@@ -46,7 +46,7 @@ INCLUDES	:=	include
 APP_VERSION	:=	2.4.3
 
 ifeq ($(RELEASE),)
-	APP_VERSION	:=	$(APP_VERSION)-SB
+	APP_VERSION	:=	$(APP_VERSION)_SB
 endif
 
 #---------------------------------------------------------------------------------
