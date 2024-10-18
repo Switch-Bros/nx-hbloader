@@ -46,7 +46,7 @@ INCLUDES	:=	include
 APP_VERSION	:=	2.4.4
 
 ifeq ($(RELEASE),)
-	APP_VERSION	:=	$(APP_VERSION)-$(shell git describe --dirty --always)
+	APP_VERSION	:=	$(APP_VERSION)_SB
 endif
 
 #---------------------------------------------------------------------------------
